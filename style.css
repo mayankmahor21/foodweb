@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+    font-weight: 400;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    /* overflow: auto; */
+}
+
+.page1{
+    width: 100%;
+    /* height: 100vh; */
+    background: #edd002;
+    overflow: hidden;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo i{
+    font-size: 25px;
+}
+
+.right-text{
+    text-align: end;
+    display: flex;
+    
+}
+.right-text i{
+    font-size: 30px;
+}
+
+.right-text .ex{
+    font-weight: bold;
+}
+.right-text .no{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav2{
+    display: flex;
+    float: right;
+    gap: 20px;
+    padding-right: 25px;
+    font-weight: 300;
+    line-height: 0px;
+}
+
+.box{
+    /* height: 600px; */
+    width: 100%;
+    /* background-color: aqua; */
+    padding-top: 5rem ;
+    display: flex;
+    align-items: center;
+}
+
+.box .item1{
+    height: 100%;
+    width: 50%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: auto; */
+    gap: 25px;
+}
+
+
+.item1 .hung i{
+ color: green;
+}
+
+.item1 .hung{
+    font-size: 30px;
+}
+
+
+.item1 .dont{
+    font-size: 80px;
+    font-family: "Rubik Wet Paint", system-ui;
+    opacity: 2.5px;
+    color: rgba(0, 0, 0, 0.79);
+
+}
+
+.item1 .lets{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.item1 .line{
+    height: 1px;
+    width: 50%;
+    background-color: #8a7b09;
+}
+
+.item1 .onon{
+    display: flex;
+}
+
+.item1 button{
+    padding: 1rem 2rem;
+    background-color: transparent;
+}
+
+.box .item2{
+    height: 100%;
+    width: 50%;
+    padding-bottom: 20px;
+    /* background-color: rgb(249, 148, 16); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .item2 img{
+    width: 70%;
+    filter: drop-shadow(0px 0px 10px  black);
+}
+
+.main .page2{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.main .page2 .choos{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 40px;
+}
+
+.main .page2 .container{
+    /* height: 550px; */
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    /* padding: 2rem 0rem; */
+    justify-content: space-evenly;
+}
+
+
+.page2 .container .products{
+    /* height: 450px; */
+    width: 300px;
+    /* height: 100%; */
+    /* padding-top: 20px; */
+    /* background-color: aqua; */
+    /* z-index: 999; */
+}
+.page2 .container .products .card1{
+    /* height: 60%; */
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: #edd002; */
+}
+
+.page2 .container .products .card1 img{
+    width: 100%;
+    /* height: 80%; */
+    object-fit: cover;
+    
+    filter: drop-shadow(0px 0px 3px  black);
+
+}
+
+.page2 .container .products .card2{
+    /* height: 40%; */
+    width: 100%;
+    /* background-color: #ed4802; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    text-align: center;
+}
+.page2 .container .products .card2 button{
+    background-color: yellow;
+    padding: 1rem 1.6rem;
+    border: none;
+    font-weight: 600;
+}
+
+.main .page3{
+    width: 100%;
+    background-color: #ffffff;
+
+}
+.page3 .page3-text{
+    padding-top: 4rem ;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+ 
+
+.page3 .cara-con{
+    /* width: 60%; */
+    width: 90%;
+    /* height: 500px; */
+    height: 70vh;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.cara-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cara-btn button{
+    padding: 1rem 1.6rem;
+    font-size: 25px;
+}
+
+.main .marquee{
+    /* width: 100%; */
+    /* height: 200px; */
+    /* background-color: #edd002; */
+    padding-top: 3rem ;
+    /* display:flex; */
+    /* gap: 500px; */
+}
+
+.marquee img{
+    width: 200px;
+    /* display: flex; */
+    /* gap: 5px; */
+}
+
+.zo {
+    height: 200px;
+    width: 200px;
+}
+
+.sw{
+    height: 200px;
+    width: 200px;
+}
+
+.main .page4{
+    width: 100%;
+}
+
+.main .page4 .page4-con{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    padding: 3rem 3rem;
+    gap: 25px;
+}
+
+.main  .page4 .page4-con .page4-item1{
+    height: 100%;
+    width: 50%;
+    /* background-color: crimson; */
+    position: relative;
+    
+}
+
+.main  .page4 .page4-con .page4-item1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .page4 .page4-con .page4text1{
+    position:absolute;
+    bottom: 260px;
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    
+} */
+
+.main  .page4 .page4-con .page4-item2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(50, 3, 12);
+}
+
+.main ,.page4 .page4-con .page4-item2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main .form{
+    width: 100%;
+    /* overflow: hidden; */
+
+}
+
+.main .form .form-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.main .form .form-text p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main .form .form-con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 50px; */
+    padding: 3rem 1rem;
+    flex-wrap: wrap;
+
+}
+
+.main .form .form-con .input-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.main .form .form-con .input-con input{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main .form .form-con .input-con  .btn{
+    background-color: #edd002;
+    border: none;
+}
+
+.main .page5{
+
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    background:black;
+
+}
+
+/* check */
+ .page5 .cover{
+    width: 95%;
+ }
+
+ .page5 .logologo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 9rem; */
+    /* font-size: 5vw; */
+    padding:2rem 5rem;
+    color: yellow;
+    width: 100%;
+ }
+
+ .page5 .cover .logologo1 i{
+    font-size: 14vw;
+ }
+
+ .page5 .cover .logologo1 h2{
+    font-size: 14vw;
+    /* line-height: 100px; */
+ }
+
+/*  */
+
+.page5 .page5-con{
+    height: 90%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.page5 .page5-con .page5-1{
+    height: 100%;
+    width: 50%;
+    background-color: chartreuse;
+    background-color: black;
+}
+
+.page5 .page5-con .page5-1 .logologo{
+    display: flex;
+    color: yellow;
+}
+
+.page5 .page5-con .page5-1 .page5logo{
+    display: flex;
+    padding: 3rem 4rem;
+    justify-content: center;
+    
+    flex-direction: column;
+    gap: 50px;
+    font-size:3vw;
+}
+
+
+
+.page5 .page5-con .page5-1 .page5logo i{
+    /* font-size: 3vw; */
+}
+
+
+.page5 .page5-con .page5-1 .page5logo p{
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+
+.page5 .page5-con .page5-2{
+    height: 100%;
+    width: 50%;
+    /* background-color: chocolate; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page5 .page5-con2{
+    height: 376px;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* font-size: 1.5vw; */
+}
+
+.page5 .page5-2 .logologo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 5rem;
+}
+.page5 .page5-2 .logologo i{
+    color: yellow;
+    font-size: 30px;
+}
+.page5 .page5-2 .logologo p{
+    color: white;
+    font-size: 20px;
+}
+
+
+.page5 .page5-2 .last{
+    display: flex;
+    gap: 10px;
+}
+
+.page5 .page5-2 .last i{
+    color: yellow;
+    font-size: 30px;
+}
+
+.page5 .page5-2 .last p{
+    color: white;
+    font-size: 20px;
+}
+
+.main .page5 .copy-con{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    /* float: right; */
+
+}
+
+.page5 .copy-con .copy1{
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    padding: 0.6rem 3rem;
+}
+
+
+.page5 .copy-con .copy2{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding: 0rem 3rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+}
+
+
+

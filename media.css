@@ -1,0 +1,188 @@
+
+@media only screen and (max-width: 400px) {
+ 
+    .nav{
+        padding: 1.5rem 1rem
+    }
+
+    .right-text .no {
+    font-size: 18px;
+    }
+
+    .right-text i {
+        font-size: 35px;
+    }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+
+.box{
+    flex-direction: column;
+}
+
+.box .item1{
+    width: 100%;
+    height: 50%;
+}
+
+.box .item2{
+    width: 100%;
+    padding: 2rem;
+}
+
+.main .page2 .container{
+    gap: 70px;
+}
+
+/* cara */
+.page3 .cara-con{
+    height: 50vh;
+}
+/*  */
+
+.nav2{
+    float: none;
+    justify-content: center;
+}
+
+/* .page5 .page5-con{
+    height: 50%;
+} */
+
+.page5 .page5-con2 {
+height: 180px;
+}
+
+.page5 .copy-con .copy2{
+    justify-content: center;
+}
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    .box .item2 img {
+    width: 95%;
+    }
+    
+    .item1 .dont {
+        font-size: 58px;
+    }
+     
+    .item1 .lets {
+        font-size: 19px;
+    }
+
+    .main .page2 .container {
+        padding: 0rem 2rem;
+    }
+
+    .main .page2 .choos{
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+        line-height: 30px;
+}
+
+.main .page2 .container {
+    flex-direction: column;
+    /* width: 600px; */
+}
+
+.main .page2 .container .products{
+    width: 350px;
+}
+
+
+.page3 {
+    padding: 5rem 0rem;
+}
+
+.page3 .page3-text{
+    padding: 0rem 1rem;
+    gap: 25px;
+}
+
+
+.main .page4 .page4-con{
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.main  .page4 .page4-con .page4-item1{
+    width: 100%;
+}
+
+.main  .page4 .page4-con .page4-item2{
+    width: 100%;
+}
+
+
+.page5 .page5-con{
+    flex-direction: column;
+    
+}
+
+.page5 .page5-con .page5-1{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding: 0rem 1rem;
+    line-height: 25px;
+}
+
+.page5 .page5-con .page5-1 .page5logo i{
+    font-size: 35px;
+}
+
+    .page5 .page5-con .page5-1 .page5logo {
+
+        padding: 1.3rem 1.5rem;
+        gap: 20px;
+        font-size: 25px;
+        
+    }
+
+    .page5 .page5-con .page5-1 .page5logo p {
+
+        font-size: 16px;
+    }
+
+    .page5 .copy-con{
+        flex-direction: column-reverse;
+    }
+
+    .page5 .copy-con .copy1 {
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+
+    .page5 .page5-con .page5-2{
+        width: 100%;
+
+    
+
+    }   
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  
+    .box .item2 img{
+        width: 95%;
+    }
+
+    .page3 .page3-text {
+        padding: 0rem 1rem;
+        line-height: 25px;
+    
+    }
+
+}
