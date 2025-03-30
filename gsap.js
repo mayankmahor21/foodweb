@@ -7,6 +7,19 @@ gsap.to(".page1 .box .item2 img ",{
     
 })
 
+gsap.from(".page1 .box .item1",{
+    opacity:1,
+    x:-500,
+    duration:1,
+    ease:"linear",
+})
+gsap.from(".page1 .box .item2",{
+    opacity:1,
+    x:500,
+    duration:1,
+    ease:"linear",
+})
+
 // gsap.from(".page1 .box .item2",{
 //     // rotate:"360deg",
 //     // repeat: -1,
