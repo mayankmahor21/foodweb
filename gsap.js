@@ -20,27 +20,23 @@ gsap.from(".page1 .box .item2",{
     ease:"linear",
 })
 
-// gsap.from(".page1 .box .item2",{
-//     // rotate:"360deg",
-//     // repeat: -1,
-//     duration:2,
+gsap.from(".page1 .nav2 p",{
+    // stagger:1,
+    duration:1,
+    // ease:"linear",
+    y:-120,
+    opacity:0
+})
 
-//     // ease:"linear",
-//     x:500,
-    
-// })
-
-// gsap.from(".page1 .box",{
-//     x:-500,
-//     duration:2,
-// })
-
-// gsap.from(".page2 .choos h1 p",{
-//     opacity:0,
-//     duration:2,
-//     x:500,
-//     // stagger:1,
-
-// })
-
-// gsap.from(".page2 .choos h1 p", { opacity: 0, duration: 1, y: 50 }); //Example
+gsap.from(".page2 .choos p",{
+    stagger:1,
+    duration:1,
+    y:120,
+    scrollTrigger:{
+        trigger:"page2 choos",
+        scroller:"body",
+        // markers:true,
+        start:"top 60%",
+        end:"top 80%"
+    }
+})
